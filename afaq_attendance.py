@@ -443,6 +443,4 @@ def index():
 def api_qr(): return jsonify({"status": "not_supported"})
 
 if __name__ == '__main__':
-    threading.Thread(target=open_firewall, daemon=True).start()
-    threading.Thread(target=daily_shutdown, daemon=True).start()
     app.run(host='0.0.0.0', port=PORT, debug=False, use_reloader=False)

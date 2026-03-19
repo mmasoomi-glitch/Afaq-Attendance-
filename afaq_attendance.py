@@ -119,19 +119,12 @@ SCHEDULES = {
         {"label": "Evening In",  "time": "19:30"},
         {"label": "Evening Out", "time": "22:30"},
     ],
-    "masoumi": [
-        {"label": "Morning In",  "time": "09:00"},
-        {"label": "Morning Out", "time": "14:30"},
-        {"label": "Evening In",  "time": "16:00"},
-        {"label": "Evening Out", "time": "19:00"},
-    ],
 }
 
 EMPLOYEES = [
     {"name": "Hafiz",    "type": "team"},
     {"name": "Mehriban", "type": "team"},
-    {"name": "Nader",    "type": "team"},
-    {"name": "Masoumi",  "type": "masoumi"},
+    {"name": "Nadir",    "type": "team"},
 ]
 
 overtime_flags = {}

@@ -33,3 +33,6 @@ dist/
 
 # Archives
 *.zip
+
+afaq_attendance_enhanced.py
+afaq_attendance_full.py
